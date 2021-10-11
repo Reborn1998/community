@@ -11,7 +11,7 @@ import java.util.List;
 public class DiscussPostService {
     @Autowired
     private DiscussPostMapper discussPostMapper;
-
+    private int te;
     public List<DiscussPost> findDiscussPosts(int userId,int offset,int limit) {
         return  discussPostMapper.selectDiscuddPosts(userId, offset, limit);
     }

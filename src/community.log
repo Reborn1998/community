@@ -1,0 +1,19 @@
+2021-10-11 14:57:48.093  INFO 62404 --- [restartedMain] com.dcj.community.CommunityApplication   : Starting CommunityApplication using Java 17 on LAPTOP-DV5TVD3P with PID 62404 (D:\My_code\community\target\classes started by Dcj in D:\My_code\community)
+2021-10-11 14:57:48.093  INFO 62404 --- [restartedMain] com.dcj.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2021-10-11 14:57:48.448  INFO 62404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-11 14:57:48.449  INFO 62404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-11 14:57:48.460  INFO 62404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-11 14:57:48.538  INFO 62404 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-10-11 14:57:48.539  INFO 62404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2021-10-11 14:57:48.827  INFO 62404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-11 14:57:48.934  INFO 62404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-11 14:57:48.956  INFO 62404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-10-11 14:57:48.963  INFO 62404 --- [restartedMain] com.dcj.community.CommunityApplication   : Started CommunityApplication in 0.932 seconds (JVM running for 1210.443)
+2021-10-11 14:57:48.965  INFO 62404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-11 14:57:49.510  INFO 102584 --- [main] com.dcj.community.LoggerTests            : Starting LoggerTests using Java 17 on LAPTOP-DV5TVD3P with PID 102584 (started by Dcj in D:\My_code\community)
+2021-10-11 14:57:49.513  INFO 102584 --- [main] com.dcj.community.LoggerTests            : No active profile set, falling back to default profiles: default
+2021-10-11 14:57:51.793  INFO 102584 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-11 14:57:52.242  INFO 102584 --- [main] com.dcj.community.LoggerTests            : Started LoggerTests in 3.177 seconds (JVM running for 4.55)
+2021-10-11 14:57:52.807  INFO 102584 --- [main] com.dcj.community.LoggerTests            : info log
+2021-10-11 14:57:52.807  WARN 102584 --- [main] com.dcj.community.LoggerTests            : warn log
+2021-10-11 14:57:52.807 ERROR 102584 --- [main] com.dcj.community.LoggerTests            : error log
